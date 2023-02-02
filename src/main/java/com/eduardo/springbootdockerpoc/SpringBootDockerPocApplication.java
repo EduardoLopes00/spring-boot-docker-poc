@@ -10,7 +10,6 @@ public class SpringBootDockerPocApplication {
 	@GetMapping("/hello-world")
 	public String testRequest() {
 
-
 		return "Hello World!";
 	}
 
